@@ -1,0 +1,41 @@
+<div class="card w-75 m-auto shadow">
+	<div class="card-body">
+		<h5 class="card-title text-center">ADD POST</h5>
+    <hr>
+
+<form action="/create" method="POST">
+		<div class="mb-3">
+		<input
+				type="text"
+				class="form-control"
+				placeholder="POST TITLE"
+        name="title"
+			/>
+		</div>
+	
+  	<div class="mb-3">
+		<input
+				type="text"
+				class="form-control"
+				placeholder="IMAGE URL"
+        name="imageUrl"
+			/>
+		</div>
+
+		<div class="mb-3">
+			<textarea
+				class="form-control"
+				rows="3"
+        name="body"
+        placeholder="Type your post here "
+			></textarea>
+		</div>
+
+    <div class="text-center">
+      <button class="btn btn-primary"> POST </button>
+    </div>
+
+
+</form>
+	</div>
+</div>
